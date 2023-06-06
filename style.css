@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1440px;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+body > object{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: -15%;
+    z-index: 1;
+}
+
+main > article{
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 10px 20px 5px hsl(245, 75%, 91%);
+}
+
+article #object{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+article h1{
+color: hsl(223, 47%, 23%);
+position: absolute;
+   top: 270px;
+   left: 0;
+   right: 0;
+   width: fit-content;
+   margin: 0 auto;
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 900;
+}
+
+article #p1{
+    position: absolute;
+    top: 325px;
+    left: 0;
+    right: 0;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 294px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+article section{
+    position: absolute;
+    top: 414px;
+    left: 0;
+    right: 0;
+    width: 359px;
+    margin: 0 auto;
+    
+}
+
+#art2{
+    position: relative;
+    background-color: hsl(225, 100%, 99%);
+    display: flow-root;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#art2 > object{
+    float: left;
+}
+
+#art2 > a{
+    float: right;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#art2 #p{
+    color: hsl(223, 47%, 23%);;
+    float: left;
+    width: fit-content;
+    position: relative;
+    margin-top: -3px;
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+
+#art2 #p::after{
+    content: '$59.99/year';
+    position: absolute;
+    left: 0;
+    top: 27px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+article #p3{
+    position: absolute;
+    top: 545px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 358px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    box-shadow: 2px 13px 18px 5px hsl(245, 75%, 91%);
+}
+
+article #p4{
+    position: absolute;
+    top: 625px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
